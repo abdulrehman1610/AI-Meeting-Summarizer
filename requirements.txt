@@ -1,0 +1,7 @@
+openai-whisper
+streamlit
+ffmpeg-python
+pydub
+requests
+python-dotenv
+torch
