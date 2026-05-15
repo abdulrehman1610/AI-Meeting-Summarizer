@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from modules import ingest, transcriber, llm_processor, exporter, email_dispatcher
 
-st.set_page_config(page_title="TEYZIX Meeting Summarizer", layout="wide")
+st.set_page_config(page_title="AI Meeting Summarizer", layout="wide")
 
 st.sidebar.title("⚙️ Settings")
 model_size = st.sidebar.selectbox("Whisper Model", ["tiny", "base", "small", "medium"], index=1)
